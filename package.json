@@ -1,0 +1,23 @@
+{
+  "name": "cloudcrud",
+  "version": "1.0.0",
+  "description": "cloud",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "node",
+    "mongodb"
+  ],
+  "author": "Dickson eneh",
+  "license": "ISC",
+  "dependencies": {
+    "cloudinary": "^1.28.1",
+    "express": "^4.17.3",
+    "mongodb": "^4.4.1",
+    "mongoose": "^6.2.5",
+    "multer": "^1.4.4"
+  }
+}
